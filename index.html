@@ -12,7 +12,19 @@
         background: lightyellow; /* Just for styling */
     }
 </style>
+    <link rel="canonical" href="https://codepo8.github.io/github-page-pwa/" />
+  <link rel="manifest" href="/manifest.webmanifest">
 </head>
+  <body>
+       <script>
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/sw.js',
+          {scope: '/carterhemsley.github.io/'}
+        )
+      }
+  </script>
+  </body>
 <iframe src="https://dubproxy.monkeybeard.repl.co/">
 </iframe>
 </html>
