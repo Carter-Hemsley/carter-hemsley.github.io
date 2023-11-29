@@ -1,26 +1,33 @@
 <html>
-<head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <style>
-    body{
-        margin: 0; /* Remove default margin */
-    }
-
-    }
-</style>
-    <link rel="canonical" href="https://codepo8.github.io/github-page-pwa/" />
-  <link rel="manifest" href="/manifest.webmanifest">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <h1 class="title">
-  World Wide Web Proxy
+    The World Wide Web Proxy made
   </h1>
+  <link rel="canonical" href="https://codepo8.github.io/github-page-pwa/" />
+  <link rel="manifest" href="/manifest.webmanifest">
 </head>
   <body>
-       <script>
+    <button onclick="sites()">Press me if all website are blocked</button>
+    <button onclick="page()">Press me if not everything is blocked</button>
+    <script>
+      function sites() {
+        window.location.href = "https://sites.google.com/student.fcusd.org/hehehehehhabdhew"
+      }
+
+      function page() {
+        window.location.href = "https://proxyyyy.monkeybeard.repl.co/"
+      }
       if (navigator.serviceWorker) {
         navigator.serviceWorker.register (
           '/sw.js',
-          {scope: '/carterhemsley.github.io/'}
+          {scope: '/carterhemsley.github.io/proxy'}
         )
       }
+    </script>
+  </body>
+</html>
+
   </script>
   </body>
 <iframe src="https://proxyyyy.monkeybeard.repl.co//">
