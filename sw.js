@@ -1,4 +1,4 @@
-var GHPATH = '/carterhemsley.githbu.io';
+var GHPATH = '/carterhemsley.githbub.io';
 var APP_PREFIX = 'cgp';
 var VERSION = 'version_002';
 var URLS = [    
