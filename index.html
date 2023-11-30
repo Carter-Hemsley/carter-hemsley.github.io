@@ -1,6 +1,9 @@
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="UTF-8">
+    <meta name="description" content="My stuff.">
+    <meta name="author" content="Carter Hemsley">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <h1 class="title">
     The World Wide Web Proxy made by Carter
   </h1>
@@ -11,6 +14,13 @@
     <button onclick="sites()">Press me if all website are blocked</button>
     <button onclick="page()">Press me if not everything is blocked</button>
     <script>
+            if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/sw.js',
+          {scope: 'carter-hemsley.github.io/'}
+        )
+      }
+      
       function sites() {
         window.location.href = "https://sites.google.com/student.fcusd.org/hehehehehhabdhew"
       }
@@ -18,12 +28,7 @@
       function page() {
         window.location.href = "https://proxyyyy.monkeybeard.repl.co/"
       }
-      if (navigator.serviceWorker) {
-        navigator.serviceWorker.register (
-          '/sw.js',
-          {scope: 'carter-hemsley.github.io/'}
-        )
-      }
+
     </script>
   </body>
 </html>
