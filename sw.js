@@ -1,11 +1,12 @@
-var GHPATH = '/carter-hemsley.github.io';
+var GHPATH = '/carter-hemsley.githbub.io';
 var APP_PREFIX = 'cwwwp';
 var VERSION = 'version_002';
 var URLS = [    
+  `${GHPATH}/`,
   `${GHPATH}/index.html`,
   `${GHPATH}/style.css`,
   `${GHPATH}/favicon.png`,
-  `${GHPATH}/favicon.ico`,
+  `${GHPATH}/app.js`
 ]
 
 var CACHE_NAME = APP_PREFIX + VERSION
