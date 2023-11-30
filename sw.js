@@ -2,7 +2,6 @@ var GHPATH = '/carter-hemsley.github.io';
 var APP_PREFIX = 'cwwwp';
 var VERSION = 'version_002';
 var URLS = [    
-  `${GHPATH}/manifest.webmanifest`,
   `${GHPATH}/index.html`,
   `${GHPATH}/style.css`,
   `${GHPATH}/favicon.png`,
