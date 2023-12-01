@@ -1,4 +1,4 @@
-var GHPATH = '/carter-hemsley.github.io';
+var GHPATH = '/hardyharhar';
 var APP_PREFIX = 'cwwwp';
 var VERSION = 'version_002';
 var URLS = [    
